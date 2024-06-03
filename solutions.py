@@ -14,8 +14,8 @@ def is_sweltering():
       :returns: True if the temperature is over 90, False otherwise.
     """
     # write your code for this function below this line.
-    a=int(input("current temperature: "))
-    if a>90:
+    Tem1=int(input("current temperature: "))
+    if Tem1>90:
         return True
     else:
         return False
@@ -30,8 +30,8 @@ def is_warm():
       :returns: True if the temperature is between 75 and 87, inclusive, False otherwise.
     """
     # write your code for this function below this line.
-    a=int(input("current temperature: "))
-    if a>=75 and a<=87:
+    Tem2=int(input("current temperature: "))
+    if Tem2>=75 and Tem2<=87:
         return True
     else:
         return False
@@ -46,8 +46,8 @@ def is_humid():
       :returns: True if it is humid today, False otherwise.
     """
     # write your code for this function below this line.
-    b=input("Is it currently humid: ")
-    if b=="yes":
+    Humid1=input("Is it currently humid: ")
+    if Humid1=="yes":
         return True
     else:
         return False
@@ -62,8 +62,8 @@ def is_inclement():
       :returns: True if it is raining, snowing, or sleeting today, False otherwise.
     """
     # write your code for this function below this line.
-    a=input("what's the weather forecast today: ")
-    if a=="rain" or a=="snow" or a=="sleet":
+    Weather_condition=input("what's the weather forecast today: ")
+    if Weather_condition=="rain" or Weather_condition=="snow" or Weather_condition=="sleet":
         return True
     else:
         return False
